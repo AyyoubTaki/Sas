@@ -12,9 +12,8 @@ int main() {
         while (head > 0)
         {
             head = 0;
-            for(int i = 0 ; i < 6 ; i++)
+            for(int i = 0 ; i < 5 ; i++)
             {
-                printf("!");
                 if (arr[i] > arr[i+1] )
                 {
                     hold = arr[i+1];
@@ -31,4 +30,5 @@ int main() {
 
 
     return 0;
+
 }
